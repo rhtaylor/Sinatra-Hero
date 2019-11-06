@@ -12,8 +12,10 @@ gem 'bcrypt'
 gem 'rails_12factor'
 gem 'foreman'
 gem 'bundler', '1.15.2' 
-
-group :development do
+gem 'dotenv'
+group :development do  
+  gem 'dotenv'
+  
   gem 'sqlite3', '<1.4'
   gem 'shotgun'
   gem 'tux'
