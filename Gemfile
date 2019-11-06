@@ -12,7 +12,7 @@ gem 'bcrypt'
 gem 'rails_12factor'
 gem 'foreman'
 gem 'bundler', '1.15.2' 
-gem 'dotenv'
+
 group :development do  
   gem 'dotenv'
   
