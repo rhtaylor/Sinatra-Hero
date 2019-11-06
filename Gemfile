@@ -1,6 +1,6 @@
 source 'http://rubygems.org'
 
-ruby '2.5.7'
+ruby '2.6.1'
 
 gem 'sinatra'
 gem 'activerecord', '4.2.11.1', :require => 'active_record'
@@ -11,6 +11,7 @@ gem 'thin'
 gem 'bcrypt'
 gem 'rails_12factor'
 gem 'foreman'
+gem 'bundler', '1.15.2' 
 
 group :development do
   gem 'sqlite3', '<1.4'
