@@ -2,7 +2,7 @@ ENV['SINATRA_ENV'] ||= "production"
 
 require 'bundler/setup'
 Bundler.require(:default, ENV['SINATRA_ENV'])
-Dotenv.load if ENV['SINATRA_ENV'] == "production"
+Dotenv.load if ENV['SINATRA_ENV'] == "development"
 
 set :database_file, "./database.yml"
 
