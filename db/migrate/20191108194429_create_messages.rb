@@ -5,4 +5,5 @@ class CreateMessages < ActiveRecord::Migration
     t.string :author 
     t.string :sent_to
   end
+end 
 end
